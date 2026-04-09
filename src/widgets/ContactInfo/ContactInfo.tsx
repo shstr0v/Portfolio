@@ -1,6 +1,6 @@
 const CONTACTS = [
   { label: 'instagram', href: 'https://instagram.com/222blank' },
-  { label: 'github', href: 'https://github.com/000x009' },
+  { label: 'github', href: 'https://github.com/shstr0v' },
   { label: 'telegram', href: 'https://t.me/sinn00s' },
 ];
 

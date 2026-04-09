@@ -14,7 +14,7 @@ export const Navigation = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-wrap items-center justify-center gap-6 md:gap-14 z-49 sticky top-0 bg-black px-6 py-6 md:p-10">
+    <nav className="flex flex-wrap items-center justify-center md:justify-start gap-6 md:gap-14 z-49 sticky top-0 bg-black px-6 py-6 md:p-10">
       {NAV_ITEMS.map((item) => {
         const isActive = pathname === item.path;
         return (
